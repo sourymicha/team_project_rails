@@ -1,0 +1,262 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+ /* home */
+
+  position: relative;
+  /* width: 1728px;
+  height: 1518px; */
+  background: #FFFFFF; 
+}
+header{
+    min-height: 50px;
+}
+.wrapper{
+    max-width: 960px;
+    margin-inline: auto;
+}
+#frame1{
+    /* Frame 1 */
+   
+   /* Auto layout */
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 16px;
+   
+   position: absolute;
+   max-width: 817.77px;
+  max-height: 276px; 
+    left: 80px;
+   top: 198.74px; 
+}
+#h1{
+        /* Our Team */
+    /* width: 542px;
+    height: 100px; */
+    
+    font-family: 'Lexend Giga';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+    /* identical to box height */
+    text-transform: uppercase;
+    
+    color: #61638A; 
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#p1{
+        /* Lorem ipsum dolor sit amet consectetur. Nulla diam quam dignissim mattis est mauris elit commodo turpis. Vehicula ultrices tellus magna tortor ac sed. Faucibus neque fames */
+    
+    /* width: 817.77px;
+    height: 160px; */
+    
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #61638A;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#ellipse1{
+    /* 4882464 1 */
+    
+    position: absolute;
+    max-width: 100%;
+    left: 800.44px;
+    top: 7px;
+    display: block;
+}
+#section1{
+    /* Ellipse 2 */
+
+position: absolute;
+/* width: 1907.52px;
+height: 1907.52px; */
+position: absolute;
+width: 810px;
+height: 1500px;
+top: 198.74px;
+left: -350.69px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(255, 197, 90, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+#section2{
+    /* Ellipse 1 */
+    position: absolute;
+    width: 810px;
+    height: 1600px;
+    left: 505px;
+    top: -668.02px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(211, 138, 160, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+label{
+    /* Veronica James */
+
+width: 137px;
+height: 80px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #61638A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#frame9{
+ /* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+border: red;
+position: absolute;
+max-width: 1402.57px;
+max-height: 713.43px; 
+left: 100px;
+top: 701px;
+}
+#frame7{
+    /* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+/* width: 1402.57px;
+height: 343.71px; */
+
+border: red;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3{
+/* Frame 3 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 32px 47px;
+gap: 10px;
+
+/* width: 259.71px;
+height: 343.71px; */
+
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid #6698D0;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.frame2{
+    /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 34px;
+
+/* width: 165.71px;
+height: 279.71px; */
+
+border: red;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+#frame8{
+    /* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+/* width: 1402.57px;
+height: 343.71px; */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+border: red;
+}
+.ellipse2{
+
+    /* Ellipse 2 */
+    
+    width: 165.71px;
+    height: 165.71px;
+    
+    background:  #D9D9D9;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+    border-radius: 50%;
+    
+    }

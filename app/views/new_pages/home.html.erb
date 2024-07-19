@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <%= stylesheet_link_tag "home.css" %>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="frame1">
+      <h1 id="h1">Our Team</h1>
+      <p id="p1">Lorem ipsum dolor sit amet consectetur. Nulla diam quam dignissim mattis est mauris elit commodo turpis. Vehicula ultrices tellus magna tortor ac sed. Faucibus neque fames</p>
+    </div>
+    <div id="section1"></div>
+    <div id="section2"></div>
+    <div id="ellipse1">
+      
+      <%= image_tag "img2.png"%>
+    </div>
+    <div id="frame9">
+      <div id="frame7">
+        <% 4.times do |i| %>
+          <div class="frame3">
+            <div class="frame2">
+              <%= image_tag "img.png",class:"ellipse2" %>
+        
+              <label id="p1">
+                <% if @team_members && @team_members[i] %>
+                  <%= @team_members[i].name %>
+                <% else %>
+                  Veronica James
+                <% end %>
+              </label>
+            </div>
+          </div>
+        <% end %>
+      </div>
+      <div id="frame8">
+        <% 4.times do |i| %>
+          <div class="frame3">
+            <div class="frame2">
+              <%= image_tag "img.png",class:"ellipse2" %>
+              <label id="p1">
+                <% if @team_members && @team_members[i] %>
+                  <%= @team_members[i].name %>
+                <% else %>
+                  Veronica James
+                <% end %>
+              </label>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
